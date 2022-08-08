@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    background-color: $mainBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card{
+        background-color: $cardBlue;
+        width: 85vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1rem;
+        max-width: 350px;
+        .imgEquil{
+            img{
+                width: 75vw;
+                margin-top: 1.5rem;
+                border-radius: 0.7rem;
+                margin-bottom: 1.2rem;
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+            .imgEye{
+                width: 75vw;
+                height: 40vh;
+                border-radius: 0.7rem;
+                background-color: $cyanGreenTransp;
+                position: absolute;
+                img{
+                    width: 2rem;
+                    left: 47%;
+                    top: 25%;
+                    position: absolute;
+                }
+            }
+        }
+        .txt{
+            a{
+                color: $white;
+                font-size: 20px;
+                margin-left: 1.8rem;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+            p{
+                font-size: 16px;
+                color: $softBlue;
+                text-align: left;
+                margin-top: 1rem;
+                margin-left: 1.8rem;
+                margin-right: 1rem;
+                line-height: 1.5rem;
+            }
+            .flexTxt{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                    .diamSection{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 10vh;
+                        img{
+                            width: 0.8rem;
+                            margin-top: 1.1rem;
+                        }
+                        p{
+                            white-space: nowrap;
+                        }
+                    }
+                    .clockSection{
+                    display: flex; 
+                    flex-direction: row;
+                    align-items: center;
+                        img{
+                            width: 0.8rem;
+                            margin: 0.3rem;
+                            margin-top: 1.1rem;
+                        }
+                        p{
+                            white-space: nowrap;
+                            
+                        }
+                    }
+            }
+        }
+        hr{
+            border: 1px solid $lineBlue;
+            width: 17rem;
+        }
+        .avatSection{
+            .imgAvatar{
+                width: 2rem;
+                height: 2rem;
+                border: 5px solid $white;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}

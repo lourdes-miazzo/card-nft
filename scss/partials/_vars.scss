@@ -1,0 +1,24 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+$fontOutfit: Outfit, sans-serif;
+
+//weight
+$fontSlight: 300;
+$fontLight: 400;
+$fontbold: 600;
+
+//size
+$fontParag: 18px;
+
+//colors
+$mainBlue:  hsl(217, 54%, 11%);
+$cardBlue:  hsl(216, 50%, 16%);
+$lineBlue: hsl(215, 32%, 27%);
+
+//color letters
+$white: hsl(0, 0%, 100%);
+$softBlue: hsl(215, 51%, 70%);
+$cyanGreen:  hsl(178, 100%, 50%);
+$cyanGreenTransp:  hsla(178, 100%, 50%, 0.5);
+
